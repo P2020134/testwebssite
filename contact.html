@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Accessibility For ALL</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+		<link rel="stylesheet" href="onboarding.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    	<link rel="stylesheet" href="contact.css">
+        <script src="navigate.js"></script>
+	</head>
+	<body>
+		<nav>
+            <ul>
+                <li id="home"><a href="#">Home</a></li>
+                <li id="features"><a href="#">Features</a></li>
+                <li id="purpose"><a href="#">Purpose</a></li>
+                <li id="contact"><a href='#'>Contact</a></li>
+                <li class="logo-link">
+                <img src='icon03.png' alt="background image">
+                </li>
+            </ul>
+        </nav>
+
+        	
+		<h1>Contant  Me </h1>
+		<h2>Let me know if i can help answer your questions</h2>
+
+            <form  onsubmit="sendEmail(); reset(); return false;" class="form" >
+            
+            <div class="flex">
+                <label>
+                    <input  id="name" required="" placeholder="" type="text" class="input">
+                    <span>Full Name</span>
+                </label>
+
+            
+            </div>  
+                    
+            <label>
+                <input id="email" required="" placeholder="" type="email" class="input">
+                <span>Email</span>
+            </label> 
+                
+            <label>
+                <input id="number" type="tel" placeholder="" class="input">
+                <span>Phone Number</span>
+            </label>
+            <label>
+                <textarea id="message" required="" rows="3" placeholder="" class="input01"></textarea>
+                <span>Message</span>
+            </label>
+            
+            <button  type=submit class="fancy" href="#">
+            <span class="top-key"></span>
+            <span class="text">submit</span>
+            <span class="bottom-key-1"></span>
+            <span class="bottom-key-2"></span>
+            </button>
+
+
+
+
+
+
+
+
+
+        <script src="navigate.js"></script>
+    </body>
+    </html>

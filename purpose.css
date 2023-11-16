@@ -1,0 +1,113 @@
+body {
+	
+	background-color:#f4f4f4;
+}
+
+nav {
+  position: fixed;
+  top: 0vh;
+  left: 0%;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Add flex display to align items horizontally */
+  height:3.75rem;
+}
+
+nav ul li {
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  padding: 1em 2em;
+  cursor: pointer;
+  box-shadow: 0 0 0 0 black;
+}
+
+nav ul li:last-child {
+  margin-left: auto; /* Push the last navigation item (logo) to the right */
+
+}
+
+nav ul li a {
+  display: flex;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.3rem;
+  padding: 0 2vw; /* Add horizontal padding to the navigation links */
+  margin-top: 0.14rem;
+}
+
+nav ul li:not(.logo-link):hover a:not(.logo-link) {
+  transform: translateY(0.375rem) translateX(0.25rem);
+  box-shadow: 0.125rem 0.25rem 0 0 black;
+  transition: all 0.3s ease;
+}
+
+
+
+p1{
+    opacity:90%;
+    top:10vh;
+    left:42.5vw;
+    position: fixed;
+    font-size:3.55rem;
+    font-family:"Poppins", sans-serif;
+    letter-spacing:2px;
+    padding:0 5px;
+    /*HOW TO HIGHLIGHT THE TEXT!!!!!!!!!!!!!!!*/
+    background: linear-gradient(
+    to bottom,
+        transparent 50%,
+        rgb(32, 126, 170) 50%);
+}
+
+
+p2{
+  
+        font-size: 1.563rem;
+        padding: 1.25rem;
+        color: black;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        position: fixed;
+        left: 70%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        height: 12.5rem;
+        width: 37.5rem;
+      
+}
+
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.gif-container {
+    max-width: 100%;
+    margin-left: 5vh;
+    margin-top: 20vh;
+}
+
+.vertical-line {
+    border-left: 2px solid black;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20vh;
+    right: 20px;
+}
